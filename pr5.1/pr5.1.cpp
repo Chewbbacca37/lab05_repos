@@ -23,3 +23,8 @@ double k(double const x, double const y)
 {
 	return (x / (1 + pow(sin(y), 2) + y / (1 + pow(x, 2))));
 }
+
+int sum(int a, int b)
+{
+	return a + b;
+}
